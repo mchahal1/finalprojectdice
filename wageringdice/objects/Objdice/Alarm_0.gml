@@ -1,0 +1,1 @@
+Objgamemaster.total_value += value_rolled

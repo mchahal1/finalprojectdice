@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Objlower",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Objupgradedice",
+  "eventList":[],
   "managed":true,
-  "name":"Objlower",
+  "name":"Objupgradedice",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprlower",
-    "path":"sprites/Sprlower/Sprlower.yy",
+    "name":"Sprupgradedice",
+    "path":"sprites/Sprupgradedice/Sprupgradedice.yy",
   },
   "spriteMaskId":null,
   "visible":true,

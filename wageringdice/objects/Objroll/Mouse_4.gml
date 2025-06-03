@@ -4,3 +4,4 @@ if (alrrolled = false) {
 	alarm[0] = 80
 }
 dicerolling = true
+Objgamemaster.alreadyguess=false

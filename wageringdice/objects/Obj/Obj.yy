@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Objupgradedice",
+  "%Name":"Obj",
   "eventList":[],
   "managed":true,
-  "name":"Objupgradedice",
+  "name":"Obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprupgradedice",
-    "path":"sprites/Sprupgradedice/Sprupgradedice.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Objupgradedice",
-  "eventList":[],
+  "%Name":"Objnxtlvl",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Objupgradedice",
+  "name":"Objnxtlvl",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprupgradedice",
-    "path":"sprites/Sprupgradedice/Sprupgradedice.yy",
+    "name":"Sprdice",
+    "path":"sprites/Sprdice/Sprdice.yy",
   },
   "spriteMaskId":null,
   "visible":true,

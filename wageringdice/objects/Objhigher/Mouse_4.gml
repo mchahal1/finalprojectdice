@@ -8,3 +8,4 @@ if Objgamemaster.alreadyguess = false {
 	}
 }
 Objgamemaster.alreadyguess=true
+Objroll.alrrolled=false

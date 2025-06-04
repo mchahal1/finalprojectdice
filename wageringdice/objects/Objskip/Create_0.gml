@@ -1,0 +1,2 @@
+alrrolled = false
+dicerolling = false

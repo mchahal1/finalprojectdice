@@ -5,3 +5,4 @@ if (alrrolled = false) {
 }
 dicerolling = true
 Objgamemaster.alreadyguess=false
+alrrolled=true

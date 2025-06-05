@@ -17,7 +17,6 @@ if Objgamemaster.alreadyguess = false {
 		Objbilly.billyhiorlow = irandom_range(0, 2)
 	}
 	if Objbilly.difficult>2 {
-		game_end()
 		Objbilly.billyhiorlow = irandom_range(-2, 1)
 	}
 }

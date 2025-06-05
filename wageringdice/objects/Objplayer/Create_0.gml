@@ -1,1 +1,1 @@
-playermoney=10
+playermoney=30

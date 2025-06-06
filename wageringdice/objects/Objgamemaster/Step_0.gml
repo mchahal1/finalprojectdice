@@ -29,6 +29,7 @@ if Objbilly.billyhiorlow = -3 {
 	Objbilly.billyhiorlow = -10
 }
 
+halfnum = total_value/2
 
 if Objbilly.billyhiorlow > 0 {
 	Objbilly.enemymoney -= total_value

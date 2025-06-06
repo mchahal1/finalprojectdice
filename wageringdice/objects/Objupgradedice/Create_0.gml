@@ -1,2 +1,2 @@
+price=5
 numberclicked=0
-price=0

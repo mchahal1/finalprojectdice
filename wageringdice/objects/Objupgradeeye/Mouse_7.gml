@@ -2,19 +2,19 @@ if numberclicked=0 {
 	price = 5
 }
 if numberclicked=1 {
-	price = 15
+	price = 10
 }
 if numberclicked=2 {
-	price = 25
+	price = 15
 }
 if numberclicked=3 {
-	price = 35
+	price = 20
 }
 if numberclicked=4 {
-	price = 45
+	price = 25
 }
 if numberclicked=5 {
-	price = 50
+	price = 30
 }
 if numberclicked=6 {
 	price+=10

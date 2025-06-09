@@ -11,10 +11,10 @@ if Objgamemaster.alreadyguess = false {
 	Objbilly.billyhiorlow = irandom_range(0, 4)
 	}
 	if Objbilly.difficult=1 {
-		Objbilly.billyhiorlow = irandom_range(0, 3)
+		Objbilly.billyhiorlow = irandom_range(0, 2)
 	}
 	if Objbilly.difficult=2 {
-		Objbilly.billyhiorlow = irandom_range(0, 2)
+		Objbilly.billyhiorlow = irandom_range(0, 1)
 	}
 	if Objbilly.difficult>2 {
 		Objbilly.billyhiorlow = irandom_range(-2, 1)

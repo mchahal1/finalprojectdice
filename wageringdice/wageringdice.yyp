@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"Objbilly","path":"objects/Objbilly/Objbilly.yy",},},
     {"id":{"name":"Objdice","path":"objects/Objdice/Objdice.yy",},},
+    {"id":{"name":"Objdisplay","path":"objects/Objdisplay/Objdisplay.yy",},},
     {"id":{"name":"Objgamemaster","path":"objects/Objgamemaster/Objgamemaster.yy",},},
     {"id":{"name":"Objhigher","path":"objects/Objhigher/Objhigher.yy",},},
     {"id":{"name":"Objlower","path":"objects/Objlower/Objlower.yy",},},
@@ -54,6 +55,8 @@
     {"id":{"name":"main","path":"rooms/main/main.yy",},},
     {"id":{"name":"Sprbilly","path":"sprites/Sprbilly/Sprbilly.yy",},},
     {"id":{"name":"Sprdice","path":"sprites/Sprdice/Sprdice.yy",},},
+    {"id":{"name":"Sprdisplay","path":"sprites/Sprdisplay/Sprdisplay.yy",},},
+    {"id":{"name":"Sprdotloading","path":"sprites/Sprdotloading/Sprdotloading.yy",},},
     {"id":{"name":"Sprhigher","path":"sprites/Sprhigher/Sprhigher.yy",},},
     {"id":{"name":"Sprlower","path":"sprites/Sprlower/Sprlower.yy",},},
     {"id":{"name":"Sprroll","path":"sprites/Sprroll/Sprroll.yy",},},

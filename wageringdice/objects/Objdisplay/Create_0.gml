@@ -1,0 +1,1 @@
+winbetstatus=4

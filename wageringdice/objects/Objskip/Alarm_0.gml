@@ -1,3 +1,3 @@
 Objdice.alarm[0] = 1
-dicerolling = false
+Objroll.dicerolling = false
 Objgamemaster.alarm[0] = 1

@@ -56,14 +56,17 @@ if Objbilly.billyhiorlow > 0 {
 
 if winbet=true {
 	Objplayer.playermoney += total_value
+	Objdisplay.winbetstatus=true
 	winbet=2
 }
 if winbet=false {
 	Objplayer.playermoney -= total_value
+	Objdisplay.winbetstatus=false
 	winbet=2
 	
 }
 if winbet=3 {
 	Objplayer.playermoney += total_value
+	Objdisplay.winbetstatus=3
 	winbet=2
 }

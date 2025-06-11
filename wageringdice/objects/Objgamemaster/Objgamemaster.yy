@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprdice",
+    "path":"sprites/Sprdice/Sprdice.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

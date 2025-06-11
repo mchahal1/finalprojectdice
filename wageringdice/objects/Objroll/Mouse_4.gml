@@ -4,6 +4,7 @@ if (alrrolled = false) {
 	alarm[0] = 30
 	dicerolling = true
 	Objbilly.image_index=choose(0,10)
+	Objupgradeeye.seeanswer=false
 }
 
 Objgamemaster.alreadyguess=false

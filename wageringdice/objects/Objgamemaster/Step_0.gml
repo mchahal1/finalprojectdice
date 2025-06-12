@@ -3,9 +3,11 @@ if Objbilly.billyhiorlow = 0 {
 	Objbilly.billyhiorlow = -10
 	if winbet=false {
 		Objbilly.image_index=choose(1,5,6)
+		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
 		Objbilly.image_index=4
+		Objtextbox.billymsg=2
 	}
 }
 if Objbilly.billyhiorlow = -1 {
@@ -14,9 +16,11 @@ if Objbilly.billyhiorlow = -1 {
 	Objbilly.image_index=4
 	if winbet=false {
 		Objbilly.image_index=choose(1,5,6)
+		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
 		Objbilly.image_index=4
+		Objtextbox.billymsg=2
 	}
 }
 if Objbilly.billyhiorlow = -2 {
@@ -25,9 +29,11 @@ if Objbilly.billyhiorlow = -2 {
 	Objbilly.image_index=4
 	if winbet=false {
 		Objbilly.image_index=choose(1,5,6)
+		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
 		Objbilly.image_index=4
+		Objtextbox.billymsg=2
 	}
 }
 if Objbilly.billyhiorlow = -3 {
@@ -36,13 +42,13 @@ if Objbilly.billyhiorlow = -3 {
 	Objbilly.image_index=4
 	if winbet=false {
 		Objbilly.image_index=choose(1,5,6)
+		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
 		Objbilly.image_index=4
+		Objtextbox.billymsg=2
 	}
 }
-
-
 
 halfnum = total_value/2
 
@@ -50,6 +56,7 @@ if Objbilly.billyhiorlow > 0 {
 	Objbilly.enemymoney -= total_value
 	Objbilly.billyhiorlow = -10
 	Objbilly.image_index=choose(2,7,9)
+	Objtextbox.billymsg=0
 }
 
 
@@ -63,7 +70,6 @@ if winbet=false {
 	Objplayer.playermoney -= total_value
 	Objdisplay.winbetstatus=false
 	winbet=2
-	
 }
 if winbet=3 {
 	Objplayer.playermoney += total_value

@@ -9,3 +9,5 @@ if (alrrolled = false) {
 
 Objgamemaster.alreadyguess=false
 alrrolled=true
+
+Objgamemaster.timesrolled+=1

@@ -6,8 +6,13 @@ if Objbilly.billyhiorlow = 0 {
 		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
+		doublelosschance= choose(0,1,2,3)
+		if doublelosschance=3 {
+			doublelossevent=true
+		} else {
 		Objbilly.image_index=4
 		Objtextbox.billymsg=2
+		}
 	}
 }
 if Objbilly.billyhiorlow = -1 {
@@ -19,8 +24,13 @@ if Objbilly.billyhiorlow = -1 {
 		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
+		doublelosschance= choose(0,1,2,3)
+		if doublelosschance=3 {
+			doublelossevent=true
+		} else {
 		Objbilly.image_index=4
 		Objtextbox.billymsg=2
+		}
 	}
 }
 if Objbilly.billyhiorlow = -2 {
@@ -32,8 +42,13 @@ if Objbilly.billyhiorlow = -2 {
 		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
+		doublelosschance= choose(0,1,2,3)
+		if doublelosschance=3 {
+			doublelossevent=true
+		} else {
 		Objbilly.image_index=4
 		Objtextbox.billymsg=2
+		}
 	}
 }
 if Objbilly.billyhiorlow = -3 {
@@ -45,8 +60,13 @@ if Objbilly.billyhiorlow = -3 {
 		Objtextbox.billymsg=choose(3,4)
 	}
 	else {
+		doublelosschance= choose(0,1,2,3)
+		if doublelosschance=3 {
+			doublelossevent=true
+		} else {
 		Objbilly.image_index=4
 		Objtextbox.billymsg=2
+		}
 	}
 }
 
@@ -75,4 +95,20 @@ if winbet=3 {
 	Objplayer.playermoney += total_value
 	Objdisplay.winbetstatus=3
 	winbet=2
+}
+
+if Objplayer.playermoney < 0 {
+	lost=true
+}
+
+
+if doublelossevent=true {
+	doublelossevent=false
+	doublelosschance=0
+	Objtextbox.billymsg=5
+	Objbilly.image_index=1
+	minusmoneyamount = Objbilly.enemymoney * 0.2
+	Objplayer.playermoney -= minusmoneyamount
+	Objbilly.enemymoney -= minusmoneyamount
+	minusmoneyamount=0
 }

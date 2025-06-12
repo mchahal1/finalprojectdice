@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"wageringdice",
   "resources":[
@@ -40,8 +40,10 @@
     {"id":{"name":"Objbillymoney","path":"objects/Objbillymoney/Objbillymoney.yy",},},
     {"id":{"name":"Objdice","path":"objects/Objdice/Objdice.yy",},},
     {"id":{"name":"Objdisplay","path":"objects/Objdisplay/Objdisplay.yy",},},
+    {"id":{"name":"Object18","path":"objects/Object18/Object18.yy",},},
     {"id":{"name":"Objgamemaster","path":"objects/Objgamemaster/Objgamemaster.yy",},},
     {"id":{"name":"Objhigher","path":"objects/Objhigher/Objhigher.yy",},},
+    {"id":{"name":"Objlossmsg","path":"objects/Objlossmsg/Objlossmsg.yy",},},
     {"id":{"name":"Objlower","path":"objects/Objlower/Objlower.yy",},},
     {"id":{"name":"Objmsg1","path":"objects/Objmsg1/Objmsg1.yy",},},
     {"id":{"name":"Objnxtlvl","path":"objects/Objnxtlvl/Objnxtlvl.yy",},},
@@ -61,6 +63,7 @@
     {"id":{"name":"Sprhigher","path":"sprites/Sprhigher/Sprhigher.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
+    {"id":{"name":"Sprlost","path":"sprites/Sprlost/Sprlost.yy",},},
     {"id":{"name":"Sprlower","path":"sprites/Sprlower/Sprlower.yy",},},
     {"id":{"name":"Sprpooltable","path":"sprites/Sprpooltable/Sprpooltable.yy",},},
     {"id":{"name":"Sprroll","path":"sprites/Sprroll/Sprroll.yy",},},

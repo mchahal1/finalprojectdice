@@ -5,4 +5,7 @@ if Objgamemaster.lost=true {
 	draw_text(x+100,y+90, "Your highest amount of money ever was: " + string(Objgamemaster.highscore))
 	draw_text(x+100,y+110, "The End." )
 	instance_destroy(Objmsg1)
+	instance_destroy(Objrestart)
+	instance_create_depth(x+80 ,y+600, 0, Objrestart)
+	instance_destroy(Objinfo)
 }

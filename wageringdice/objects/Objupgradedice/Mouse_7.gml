@@ -53,5 +53,5 @@ if numberclicked=17 {
 	price+=10
 }
 if numberclicked=18 {
-	price+=10
+	price+=10000
 }

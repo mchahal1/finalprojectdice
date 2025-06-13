@@ -8,3 +8,4 @@ doublelosschance=0
 minusmoneyamount=0
 timesrolled=0
 lost=false
+highscore=0

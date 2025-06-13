@@ -11,3 +11,12 @@ if enemymoney < 1 {
 	Objtextbox.billymsg=1
 	}
 }
+if difficult=1 {
+	difficultword="Normal"
+}
+else if difficult=2 {
+	difficultword="Hard"
+}
+else if difficult>2 {
+	difficultword="Max"
+}

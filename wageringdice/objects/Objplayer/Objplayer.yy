@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
+    "name":"Sprplayermoney",
+    "path":"sprites/Sprplayermoney/Sprplayermoney.yy",
   },
   "spriteMaskId":null,
   "visible":true,

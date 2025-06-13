@@ -110,5 +110,11 @@ if doublelossevent=true {
 	minusmoneyamount = Objbilly.enemymoney * 0.2
 	Objplayer.playermoney -= minusmoneyamount
 	Objbilly.enemymoney -= minusmoneyamount
+	Objplayer.playermoney = round(Objplayer.playermoney)
+	Objbilly.enemymoney = round(Objbilly.enemymoney)
 	minusmoneyamount=0
+}
+
+if Objplayer.playermoney > highscore {
+	highscore = Objplayer.playermoney
 }

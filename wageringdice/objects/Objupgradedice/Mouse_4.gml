@@ -1,5 +1,4 @@
 if Objplayer.playermoney > price && numberclicked=0 {
-	
 	Objplayer.playermoney-=price
 	numberclicked+=1
 	room_goto_next()

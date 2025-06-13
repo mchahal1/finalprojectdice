@@ -1,3 +1,2 @@
 draw_self()
-draw_text(x, y+320, " " + string(billyhiorlow))
-draw_text(x, y+340, "Difficulty: " + string(difficult))
+draw_text(x+80, y+280, "Difficulty: " + difficultword)

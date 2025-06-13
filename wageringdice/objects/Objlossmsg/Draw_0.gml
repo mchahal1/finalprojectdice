@@ -1,6 +1,8 @@
 if Objgamemaster.lost=true {
 	draw_self()
 	draw_text(x+100,y+50, "You have gone BANKRUPT! (Negative $) You have lost all your money, family and possesions to Billy." )
-	draw_text(x+100,y+70, "You rolled " + string(Objgamemaster.timesrolled) + " The End." )
+	draw_text(x+100,y+70, "You rolled the dice " + string(Objgamemaster.timesrolled) + " times." )
+	draw_text(x+100,y+90, "Your highest amount of money ever was: " + string(Objgamemaster.highscore))
+	draw_text(x+100,y+110, "The End." )
 	instance_destroy(Objmsg1)
 }

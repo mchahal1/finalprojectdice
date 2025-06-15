@@ -6,6 +6,6 @@ if Objgamemaster.lost=true {
 	draw_text(x+100,y+110, "The End." )
 	instance_destroy(Objmsg1)
 	instance_destroy(Objrestart)
-	instance_create_depth(x+80 ,y+600, 0, Objrestart)
+	instance_create_depth(x+80 ,y+600, -1000, Objrestart)
 	instance_destroy(Objinfo)
 }

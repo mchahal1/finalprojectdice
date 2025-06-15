@@ -1,2 +1,2 @@
-Objinfo.infopressed=false
 instance_destroy(self)
+Objinfo.infopressed=false

@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Sprbillymsgs",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":151,
   "bbox_left":10,
   "bbox_right":249,
   "bbox_top":0,

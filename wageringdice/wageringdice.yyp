@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"wageringdice",
   "resources":[
@@ -79,7 +79,6 @@
     {"id":{"name":"Sprdisplay","path":"sprites/Sprdisplay/Sprdisplay.yy",},},
     {"id":{"name":"Sprdotloading","path":"sprites/Sprdotloading/Sprdotloading.yy",},},
     {"id":{"name":"Sprenemymoney","path":"sprites/Sprenemymoney/Sprenemymoney.yy",},},
-    {"id":{"name":"Sprexitinfo","path":"sprites/Sprexitinfo/Sprexitinfo.yy",},},
     {"id":{"name":"Sprhigher","path":"sprites/Sprhigher/Sprhigher.yy",},},
     {"id":{"name":"Sprinfo","path":"sprites/Sprinfo/Sprinfo.yy",},},
     {"id":{"name":"Sprinfoscreen","path":"sprites/Sprinfoscreen/Sprinfoscreen.yy",},},

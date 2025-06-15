@@ -44,14 +44,5 @@ if numberclicked=14 {
 	price+=10
 }
 if numberclicked=15 {
-	price+=10
-}
-if numberclicked=16 {
-	price+=10
-}
-if numberclicked=17 {
-	price+=10
-}
-if numberclicked=18 {
-	price+=10000
+	price+=909090909
 }
